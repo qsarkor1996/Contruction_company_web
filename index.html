@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Engineering Group</title>
+<link rel="stylesheet" href="./assets/CSS/styles.css">
+</head>
+<body>
+
+  <header id="navbar">
+    <div class="logo">
+        <img class="first-logo" src="./assets/images/EG_logo.png" alt="Company Logo" id="logo">
+    </div>
+    <div class="nav-container">
+        <nav>
+            <ul id="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#careers">Careers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="language-selector">
+            <select>
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+            </select>
+        </div>
+    </div>
+    <div id="mobile-menu-toggle">☰</div>
+</header>
+
+<main>
+  <div id="hero">
+    <video autoplay muted loop id="hero-video">
+        <source src="./assets/videos/Home_page_workside_video.mp4" type="video/mp4">
+        
+    </video>
+    <div class="hero-text">
+        <h1>Build The Future With Us</h1>
+        <p>Honest, Reliable Company since 2000</p>
+        <a href="#projects" class="button view-projects">View Projects</a>
+        <a href="#contact" class="button contact-us">Contact Us</a>
+    </div>
+</div>
+
+    <!-- Service Section -->
+    <section id="services">
+      <div class="services-content">
+        <div class="services-text">
+          <h2>We Offer a Range of Services to Meet Your Needs</h2>
+          <p>Under review</p>
+          <div class="service-item">
+            <img src="./assets/images/LOGO Engineering Group.png" alt="Commercial Construction">
+            <div>
+              <h3>Under review</h3>
+              <p>About service . under review</p>
+            </div>
+          </div>
+          <!-- Repeat for other service items -->
+        </div>
+        <div class="service-image">
+          <img src="./assets/images/LOGO Engineering Group.png" alt="Service Image">
+        </div>
+      </div>
+    </section>
+
+
+    <section id="projects">
+      <div class="projects-header">
+        <h2>Our last projects</h2>
+        <p>Under review</p>
+      </div>
+    
+      <div class="project-grid">
+        <div class="project-item">
+          <img src="./assets/images/LOGO Engineering Group.png" alt="#">
+          <h3>Cooming soon</h3>
+        </div>
+        <div class="project-item">
+          <img src="./assets/images/LOGO Engineering Group.png" alt="#">
+          <h3>Cooming soon</h3>
+        </div>
+        <div class="project-item">
+          <img src="./assets/images/LOGO Engineering Group.png" alt="#">
+          <h3>Cooming soon</h3>
+        </div>
+        <!-- Add more project items as needed -->
+      </div>
+    </section>
+    
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Information about the company...</p>
+    </section>
+
+    <section id="careers">
+        <h2>Careers</h2>
+        <p>Job openings and career information...</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>How to get in touch...</p>
+    </section>
+</main>
+<!-- Chat Icon -->
+<div id="message-icon">
+  <!-- You can replace the content inside the span with an actual icon or image -->
+  <span>💬</span>
+</div>
+
+<!-- Chat Box -->
+<div id="chat-box" class="hidden">
+  <div id="chat-box-header">
+    <span>EG Group</span>
+    <button id="close-chat">X</button>
+  </div>
+  <div id="chat-messages">
+    <!-- Messages will be displayed here -->
+  </div>
+  <div id="chat-input-container">
+    <input type="text" id="chat-input" placeholder="Type your message...">
+    <button id="send-message">➤</button>
+  </div>
+</div>
+
+<footer>
+    <p>© 2023 Spython</p>
+    <!-- Add additional footer info here -->
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./assets/Java/scripts.js"></script>
+</body>
+</html>
